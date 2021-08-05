@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box!important;
+}
+
+/* ---------------THE BODY------------*/
+body{
+    font-family: 'Lato', sans-serif;
+    font-size: 200;
+    margin: 20px;
+    background-color: rgb(255, 240, 211);
+}
+header{
+    height: 90vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.753),
+     rgba(0, 0, 0, 0.699)) , 
+     url(images/bethany-fullsize.jpg);
+    background-size: cover;
+    background-repeat: none;
+    background-position: top;
+    
+   
+
+}
+
+.pri-logo{
+    margin-left: 70px;
+
+}
+
+.pri-logo img{
+    width:70px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+.upper-container{
+    margin: 10px;
+}
+
+nav{
+    text-align: center;
+    font-size: 700;
+
+}
+
+nav ul{
+    margin-top: -50px;
+}
+nav ul li{
+    margin-right: 10px;
+    display:inline-block;
+    list-style-type: none;
+}
+
+a{
+   text-decoration: none;
+   color : rgb(255, 255, 255);
+   letter-spacing: 2px;
+   font-size: 18px;
+   font-weight: 500;
+}
+
+nav ul li a:hover{
+    color: orange;
+}
+
+.btn-top{
+    float: right;
+    margin-top: -23px;
+    margin-right: 40px;
+}
+
+.btn-top a{
+    background-color: orange;
+    padding: 10px;
+    border-radius:  30px;
+}
+
+.btn-top a:hover{
+    background-color: darkorange
+}
+
+.primary-text{
+    text-align: center;
+   margin-top: 30vh;
+}
+
+.primary-text .btn-top a{
+  
+    align-items: center;
+}
+
+.primary-text h4{
+    color:white; 
+    margin-top: 5px;
+    font-size: 30px;
+    letter-spacing: 5px;
+   
+}
+
+.btn-top mid a{
+    float: none;
+    text-align: center;
+}
+
+h1,p{
+    color: #555;
+    text-align: center;
+
+}
+.abt{
+    text-align: center;
+    margin-top: 20px;
+    
+
+}
+
+.msg{
+    resize: none;
+    width: 400px;
+    background: none;
+    border-bottom: 0 2px 0 0;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+}
+
+.frm{
+    width: 400px;
+    outline: none;
+    background: none;
+    border-bottom: 0 2px 0 0;
+    border-top: hidden;
+    border-right: hidden;
+    border-left: hidden;
+
+
+}
+
+.msg, .frm{
+    margin-top: 25px;
+}
+
+.msg:active{
+    border-color: orange;
+    
+}
+
+:placeholder-shown{
+    font-size: 15px;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.abt-description{
+    margin: 0 auto;
+    width: 800px;
+}
+
+.container{
+    max-width: 1000px;
+    margin: auto;
+}
+
+.products{
+   margin: 20px;
+   display: flex;
+}
+
+.col-4{
+    flex-basis: 30%;
+    max-width: 300px;
+    margin-top: 20px;
+    margin-right: 20px;
+    box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.301);
+    cursor: pointer;
+    transform: transition 0.5s;
+    
+}
+
+.col-4:hover{
+    transition: translateY(-5px);
+}
+
+.col-4 img{
+    width: 100%;
+}
+
+.col-4 p{
+    font-size: 17px;
+    font-weight: 700;
+}
+
+
+
+.cnt-form{
+    border: none;
+    margin: auto;
+    text-align: center;
+    max-width: 500px;
+    padding: 10px;
+
+}
+
+fieldset{
+    border-radius: 10px;
+    border-bottom: 10px;
+    background-color: rgba(129, 126, 126, 0.527);
+    
+}
+
+form p{
+    color: white;
+    margin-bottom: 10px;
+    background-color: none;
+    border-bottom: 2px;
+    border-top-style: none;
+}
+
+.brands{
+    margin: 100px;
+}
+
+.col-5{
+    width: 160px;
+    margin: auto 0;
+}
+
+.col-5 img{
+    width: 100%;
+    cursor: pointer;
+    filter: grayscale(100%);
+}
+
+.col-5 img:hover{
+    filter: none;
+}
+
+.row{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+
+/*footer*/
+footer{
+    background: rgb(68, 66, 66);
+    padding-top: 45px;
+    padding-bottom: 30px;
+    margin-left: 30px;
+    margin-right: 10px;
+    font-size: 14px;
+}
+.foot{
+    display: flex;
+    margin-left: 110px;
+    
+}
+.col-3{
+    margin-right: 70px;
+    
+}
+
+.col-3 a{
+    font-size: 15px;
+}
+
+.dnd img{
+    width: 150px;
+}
+
+ul li{
+    list-style-type: none;
+    
+}
+
+.sub{
+    margin-top: 20px;
+    margin-bottom: 20px;
+   
+}
+
+.sub-btn{
+    background-color: orange;
+    padding: 10px 15px;
+    border-radius:  10px;
+    text-align: center;
+    margin-left: 100px;
+}
+
+
+
+
+.foot-sub{
+    margin-top: 20px;
+    position: relative;
+}
+
+hr{
+    width: 90%;
+    margin: 20px auto;
+}
+
+.col-3 ul li{
+    list-style-type: square;
+}
+
+.col-3 h3{
+    margin-bottom: 10px;
+}
+
+.col-3 img{
+    cursor: pointer;
+    width: 100px;
+}
+
+.col-3 a:hover{
+    color: orange;
+}
+
+.copyright{
+    color: rgb(255, 255, 255);
+}
+
+.sub a:hover{
+    color: white;
+    background-color: darkorange;
+}
+
+.foot-sub .frm{
+    width: 300px;
+}
+
+.brands .contain{
+    margin: 0 auto;
+    align-content: center;
+}
