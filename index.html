@@ -19,8 +19,8 @@
                     <div class="pri-logo">
                         <img src="images/bethanylogo.png" alt="bethanylogo">
                     </div>
-                    <nav>
-                        <ul>
+                    <nav class="menu">
+                        <ul id="MenuItems">
                             <li><a href="index.html">Home</a></li>
                             <li><a href="#prod">Products</a></li>
                             <li><a href="index.html">Blog</a></li>
@@ -29,7 +29,9 @@
                         </ul>
                         <div class="btn-top">
                            <span> <a href="#">Order Now</a></span>
+                           <img src="images/menu.png" class="menu-icon" onclick="ToggleMenu()">
                         </div>
+                        
                     </nav>
                 </div>
                 <div class="primary-text">
@@ -46,7 +48,9 @@
             <section>
             <div class="abt">
         <h1 class="title">ABOUT US</h1>
+        <img src="images/products/applepie.jpg" alt="">
         <div class="abt-description">
+            <h4>HOW ABOUT US??</h4>
         <p>For many year Bethany has been baking the most delicous pies at her home. in 2013, we opened our first store in Brussel (Belgium) in a cosy little street near the Grand Market. People from all over the world fell in love with the soft cakes, heavenly cheese cakes, spicy apple pies...
             The store became a success in no time.
             In 2015, no less than 100 pies were sold every day and Bethany's Pie Shop moved into a larger building. After receiving many requests, it became clear that our next step was making it possible to order pies from the comfort of your own home and from anywhere in the world. You are now looking at the result of this: our very own webstore, making it possible to order Bethany's delicious pies whenever you feel like it!
@@ -57,7 +61,7 @@
     <!-----------Products----------------->
        <div class="container">
             <div class="abt">
-                <h1 class="title">PRODUCTS</h1>   
+                <h1 class="title">OUR PRODUCTS</h1>   
             </div>
             <div class="products" id="prod">
                 <div class="col-4">
@@ -243,5 +247,19 @@
         </div>
         </footer>
     
+
+
+        <script>
+            var MenuItems = document.getElementById("MenuItems");
+                MenuItems.style.maxHeight = "0px";
+                function ToggleMenu(){
+                    if(MenuItems.style.maxHeight == "0px"){
+                        MenuItems.style.maxHeight = "200px";
+                    }else
+                    {
+                        MenuItems.style.maxHeight = "0px";
+                    }
+            }
+        </script>
     </body>
 </html>
